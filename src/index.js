@@ -107,11 +107,17 @@ bot.on('message', msg => {
             })
             break
         case kb.ppc_price.price_1:
-            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/vrazrabotke.png')).then(() => {
+            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/ppc1.png')).then(() => {
                 // bot.sendMessage(chatId, 'Заказать продвижение интернет портала https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
-                bot.sendMessage(chatId, 'Чтобы задать вопрос нажмите на кнопку', {
+                bot.sendMessage(chatId, 'Для заказа нажмите на кнопку - ПОДРОБНЕЕ', {
                     reply_markup: {
                         inline_keyboard: [
+                            [
+                                {
+                                    text: 'Подробнее',
+                                    url: 'https://msk.lapkinlab.ru/kontekstnaya-reklama'
+                                }
+                            ],
                             [
                                 {
                                     text: 'Задать вопрос',
@@ -125,11 +131,17 @@ bot.on('message', msg => {
             })
             break
         case kb.ppc_price.price_2:
-            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/vrazrabotke.png')).then(() => {
+            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/ppc2.png')).then(() => {
                 // bot.sendMessage(chatId, 'Заказать продвижение интернет портала https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
-                bot.sendMessage(chatId, 'Чтобы задать вопрос нажмите на кнопку', {
+                bot.sendMessage(chatId, 'Для заказа нажмите на кнопку - ПОДРОБНЕЕ', {
                     reply_markup: {
                         inline_keyboard: [
+                            [
+                                {
+                                    text: 'Подробнее',
+                                    url: 'https://msk.lapkinlab.ru/kontekstnaya-reklama'
+                                }
+                            ],
                             [
                                 {
                                     text: 'Задать вопрос',
@@ -143,11 +155,42 @@ bot.on('message', msg => {
             })
             break
         case kb.ppc_price.price_3:
-            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/vrazrabotke.png')).then(() => {
+            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/ppc3.png')).then(() => {
                 // bot.sendMessage(chatId, 'Заказать продвижение интернет портала https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
-                bot.sendMessage(chatId, 'Чтобы задать вопрос нажмите на кнопку', {
+                bot.sendMessage(chatId, 'Для заказа нажмите на кнопку - ПОДРОБНЕЕ', {
                     reply_markup: {
                         inline_keyboard: [
+                            [
+                                {
+                                    text: 'Подробнее',
+                                    url: 'https://msk.lapkinlab.ru/kontekstnaya-reklama'
+                                }
+                            ],
+                            [
+                                {
+                                    text: 'Задать вопрос',
+                                    url: 'https://t.me/LapkinLAb'
+                                }
+                            ],
+
+                        ]
+                    }
+                })
+            })
+
+            break
+        case kb.ppc_price.price_4:
+            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/ppc4.png')).then(() => {
+                // bot.sendMessage(chatId, 'Заказать продвижение интернет портала https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
+                bot.sendMessage(chatId, 'Для заказа нажмите на кнопку - ПОДРОБНЕЕ', {
+                    reply_markup: {
+                        inline_keyboard: [
+                            [
+                                {
+                                    text: 'Подробнее',
+                                    url: 'https://msk.lapkinlab.ru/kontekstnaya-reklama'
+                                }
+                            ],
                             [
                                 {
                                     text: 'Задать вопрос',
@@ -169,7 +212,7 @@ bot.on('message', msg => {
         case kb.audit_price.audit_seo:
             bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/audit_seo.png')).then(() => {
                 // bot.sendMessage(chatId, 'Заказать продвижение интернет портала https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
-                bot.sendMessage(chatId, 'Для заказа нажмите на кнопку', {
+                bot.sendMessage(chatId, 'Для заказа нажмите на кнопку - ПОДРОБНЕЕ', {
                     reply_markup: {
                         inline_keyboard: [
                             [
@@ -193,7 +236,7 @@ bot.on('message', msg => {
         case kb.audit_price.audit_ppc:
             bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/audit_rk.jpg')).then(() => {
                 // bot.sendMessage(chatId, 'Заказать продвижение интернет портала https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
-                bot.sendMessage(chatId, 'Для заказа нажмите на кнопку', {
+                bot.sendMessage(chatId, 'Для заказа нажмите на кнопку - ПОДРОБНЕЕ', {
                     reply_markup: {
                         inline_keyboard: [
                             [
@@ -217,7 +260,7 @@ bot.on('message', msg => {
         case kb.audit_price.audit_smm:
             bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/audit_smm.jpg')).then(() => {
                 // bot.sendMessage(chatId, 'Заказать продвижение интернет портала https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
-                bot.sendMessage(chatId, 'Для заказа нажмите на кнопку', {
+                bot.sendMessage(chatId, 'Для заказа нажмите на кнопку - ПОДРОБНЕЕ', {
                     reply_markup: {
                         inline_keyboard: [
                             [
@@ -245,7 +288,7 @@ bot.on('message', msg => {
             })
             break
         case kb.telega_price.telega_1:
-            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/vrazrabotke.png')).then(() => {
+            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/telegram_bot.jpeg')).then(() => {
                 // bot.sendMessage(chatId, 'Заказать продвижение интернет портала https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
                 bot.sendMessage(chatId, 'Чтобы задать вопрос нажмите на кнопку', {
                     reply_markup: {
@@ -256,6 +299,12 @@ bot.on('message', msg => {
                                     url: 'https://t.me/LapkinLAb'
                                 }
                             ],
+                            [
+                                {
+                                    text: 'Посмотреть пример работы Telegram бота',
+                                    url: 'https://t.me/bot_random_bot'
+                                }
+                            ]
 
                         ]
                     }
@@ -281,7 +330,7 @@ bot.on('message', msg => {
             })
             break
         case kb.telega_price.telega_3:
-            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/vrazrabotke.png')).then(() => {
+            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/telegram_bot.jpeg')).then(() => {
                 // bot.sendMessage(chatId, 'Заказать продвижение интернет портала https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
                 bot.sendMessage(chatId, 'Чтобы задать вопрос нажмите на кнопку', {
                     reply_markup: {
@@ -292,10 +341,65 @@ bot.on('message', msg => {
                                     url: 'https://t.me/LapkinLAb'
                                 }
                             ],
+                            [
+                                {
+                                    text: 'Посмотреть пример работы Telegram бота',
+                                    url: 'https://t.me/bot_random_bot'
+                                }
+                            ]
+                        ]
+
+
+                    }
+                })
+            })
+            break
+
+        case kb.home.zayavka:
+            bot.sendMessage(chatId, 'Выберите тип заявки:', {
+                reply_markup: {keyboard: keyboard.zayavka_prices}
+            })
+            break
+        case kb.zayavka_call.zayavka_1:
+            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/zayavka_telegram.jpg')).then(() => {
+                // bot.sendMessage(chatId, 'Заказать продвижение интернет портала https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
+                bot.sendMessage(chatId, 'Чтобы оставить заявку нажмите на кнопку', {
+                    reply_markup: {
+                        inline_keyboard: [
+                            [
+                                {
+                                    text: 'Оставить заявку',
+                                    url: 'https://t.me/LapkinLAb'
+                                }
+                            ]
 
                         ]
                     }
                 })
+            })
+            break
+        case kb.zayavka_call.zayavka_2:
+            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/zayavka_site.png')).then(() => {
+                // bot.sendMessage(chatId, 'Заказать продвижение интернет портала https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
+                bot.sendMessage(chatId, 'Чтобы оставить заявку нажмите на кнопку', {
+                    reply_markup: {
+                        inline_keyboard: [
+                            [
+                                {
+                                    text: 'Оставить заявку',
+                                    url: 'https://msk.lapkinlab.ru/contacts'
+                                }
+                            ]
+
+                        ]
+                    }
+                })
+            })
+            break
+        case kb.zayavka_call.zayavka_3:
+            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/zayavka_telefon.jpg')).then(() => {
+                // bot.sendMessage(chatId, 'Заказать продвижение интернет портала https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
+                bot.sendMessage(chatId, 'Чтобы оставить заявку наберите номер 8 800 301 00 19')
             })
             break
 

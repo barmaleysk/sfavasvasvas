@@ -3,7 +3,8 @@ module.exports = {
         seo: 'SEO Продвижение',
         ppc: 'Контекстная реклама',
         audit: 'Аудит сайта/РК',
-        telega: 'Telegram боты'
+        telega: 'Telegram боты',
+        zayavka: 'Оставить заявку',
     },
     seo_price: {
         site_1: 'Сайт услуг',
@@ -12,9 +13,10 @@ module.exports = {
 
     },
     ppc_price: {
-        price_1: 'Тариф 1',
-        price_2: 'Тариф 2',
-        price_3: 'Тариф 3',
+        price_1: 'Тестовый',
+        price_2: 'Стандартный',
+        price_3: 'Расширенный',
+        price_4: 'Эксклюзивный',
 },
     audit_price: {
         audit_seo: 'SEO Аудит',
@@ -26,5 +28,11 @@ module.exports = {
         telega_2: 'Чат бот',
         telega_3: 'Telegram магазин',
     },
+    zayavka_call: {
+        zayavka_1: 'Оставить заявку в Telegram',
+        zayavka_2: 'Оставить заявку на сайте',
+        zayavka_3: 'Оставить заявку по телефону',
+    },
+
     back: 'Назад'
 }
